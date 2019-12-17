@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Borodinsky2 form</title>
+</head>
+<body>
+  <header class="page-header">
+    <a class="page-header__logo" href="index.html">
+      <img class="page-header__logo-img" src="" width="226" height="30" alt="Barbershop borodinsky">
+    </a>
+    <nav class="main-nav">
+      <button class="main-nav__toggle" type="button">Открыть меню</button>
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item"><a href="index.html">Главная</a></li>
+          <li class="site-list__item"><a href="photo.html">Наши работы</a></li>
+          <li class="site-list__item site-list__item--active"><a href="#">Записаться</a></li>
+          <li class="site-list__item"><a href="#">Контакты</a></li>
+          <li class="site-list__item"><a href="#">Академия </a></li>
+        </ul>
+        <ul class="main-nav__list user-list">
+          <li class="user-list__item">
+            <a href="login.html" class="user-list__login">Войти</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="page-main">
+    <section class="form">
+      <h1 class="form__title">Записаться на стрижку</h1>
+      <form action="post">
+        <fieldset class="form__grup">
+          <input type="text" placeholder="Фамилия">
+          <input type="text" placeholder="Имя">
+          <input type="text"placeholder="Отчество">
+        </fieldset>
+        <fieldset class="form__grup">
+        <input type="tel">
+        <input type="email">
+        </fieldset>
+        <fieldset class="form__grup">
+          <input type="text" placeholder="Доп. информация для мастера">
+        </fieldset>
+        <fieldset class="form__grup">
+          <legend>Выберите модель бороды:</legend>
+          <input type="radio">
+          <label for="">адмирал</label>
+          <input type="text">
+          <label for="">лесоруб</label>
+          <input type="text">
+          <label for="">полярник</label>
+          <input type="text">
+          <label for="">боярин</label>
+          <input type="text">
+          <label for="">мудрец</label>
+        </fieldset>
+        <fieldset class="form__grup">
+          <legend>Дополнительные услуги:</legend>
+          <input type="checkbox" id="check__num-1">
+          <label for="check__num-1">Подкрасить бороду</label>
+          <input type="checkbox" id="check__num-2">
+          <label for="check__num-2">Накрутить усы</label>
+          <input type="checkbox" id="check__num-3">
+          <label for="check__num-3">Причесать бороду</label>
+          <input type="checkbox" id="check__num-4">
+          <label for="check__num-4">Подровнять виски</label>
+          <input type="checkbox" id="check__num-5">
+          <label for="check__num-5">Убрать седину</label>
+          <input type="checkbox" id="check__num-6">
+          <label for="check__num-6">Отполиросать лысину</label>
+        </fieldset>
+        <button class="button form__button" type="submit">Отправить заявку</button>
+      </form>
+    </section>
+  </main>
+  <footer class="page-footer">
+    <div class="page-footer__wrapper">
+      <div class="page-footer__contacts contacts">
+        <b class="contacts__title">Барбершоп «Бородинский»</b>
+        <p class="contacts__text">
+          г. Санкт-Петербург, ул. Большая Конюшенная 19/8<br>
+          <a class="contacts__phone" href="tel:+78125556666">
+            <span class="contacts__phone-mobile">Тел.:</span> +7 (812) 555-66-66
+          </a>
+        </p>
+      </div>
+      <div class="page-footer__social social">
+        <b class="social__title">Давайте дружить!</b>
+        <ul class="social__list">
+          <li class="social__item">
+            <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--facebook" href="https://www.facebook.com/htmlacademy">Мы в Фейсбуке</a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--instagram" href="https://www.instagram.com/htmlacademy">Мы в Инстаграме</a>
+          </li>
+        </ul>
+      </div>
+      <div class="page-footer__copyright copyright">
+        <b class="copyright__text">Разработано:</b>
+        <a class="button copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
